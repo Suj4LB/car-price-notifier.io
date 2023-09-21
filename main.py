@@ -1,6 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 import smtplib
+from colorama import *
+init()
+import time
 
 # Define the URL to scrape (example: AutoTrader)
 url = "https://www.autotrader.com/cars-for-sale/"
