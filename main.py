@@ -21,3 +21,24 @@ def check_prices():
         if price < threshold_price:
             toaster = ToastNotifier()
             toaster.show_toast("Car Price Alert", f"The price of the {car_model} has dropped below Rs. {threshold_price}!", duration=10)
+            
+# GUI Setup
+root = tk.Tk()
+root.title("Car Price Notifier")
+
+style = ThemedStyle(root)
+style.set_theme("plastik")
+
+frame = ttk.Frame(root, padding="30")
+frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+
+label = ttk.Label(frame, text="Enter Threshold Price (in INR):")
+label.grid(row=0, column=0, pady=(0, 10), sticky=tk.W)
+
+threshold_entry = ttk.Entry(frame)
+threshold_entry.grid(row=1, column=0, pady=(0, 10))
+
+check_button = ttk.Button(frame, text="Check Prices", command=check_prices)
+check_button.grid(row=2, column=0, pady=(0, 10))
+
+root.mainloop()
