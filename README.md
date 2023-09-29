@@ -8,8 +8,8 @@ IT USES PYTHON LIBRARIES.
 - It takes a threshhold value from the user, compares to the priginal price of the car and then nptifies the user if the prices are dropped.
 
 ## contributors:-
-[pratiksha-25](https://github.com/Pratiksha-25)
-[sujal](https://github.com/whysujalwhy)
+- [pratiksha-25](https://github.com/Pratiksha-25)
+- [sujal](https://github.com/whysujalwhy)
 
 
 
