@@ -1,6 +1,6 @@
 ## DEVOPS PROJECT 2:-
 **A notifier that uses python to notify about change in car price.**
-![image] (https://images.app.goo.gl/Dm3vmdNjCN5T8mQu5)
+![image](https://github.com/whysujalwhy/car-price-notifier.io/blob/main/Cars-Prices-BANNER.jpg)
 
 IT USES PYTHON LIBRARIES.
 
