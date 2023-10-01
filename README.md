@@ -2,7 +2,7 @@
 **A notifier that uses python to notify about change in car price.**
 ![image](https://github.com/whysujalwhy/car-price-notifier.io/blob/main/Cars-Prices-BANNER.jpg)
 
-IT USES PYTHON LIBRARIES.
+It uses Python libraries like BeautifulSoup and ToastNotifier.
 
 ## Features of project:-
 - It takes a threshold value from the user, compares to the original price of the car and then notifies the user if the prices are dropped.
