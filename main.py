@@ -22,14 +22,14 @@ def check_prices():
         car = car[1:]
         make, model, price = car
         if price < threshold_price:
-            print(f"The price of a {make} {model} has dropped below ${threshold_price}!")
+            print(f"The price of a {make} {model} has dropped below Rs.{threshold_price}!")
     conn.close()
 
 # GUI Setup
 root = Tk()
 root.title("Car Price Notifier")
 
-label_threshold = Label(root, text="Threshold Price (in USD):")
+label_threshold = Label(root, text="Threshold Price (in Rs. ):")
 label_threshold.pack(pady=5)
 
 threshold_entry = Entry(root)
