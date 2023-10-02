@@ -23,6 +23,8 @@ def check_prices():
         make, model, price = car
         if price < threshold_price:
             print(f"The price of a {make} {model} has dropped below Rs.{threshold_price}!")
+            notifier = ToastNotifier()
+            notifier.show_toast(f"The Price of {make} {model} has dropped !", " ", duration= 2)
     conn.close()
 
 # GUI Setup
