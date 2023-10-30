@@ -8,10 +8,9 @@ It uses Python libraries like BeautifulSoup and ToastNotifier.
 - It takes a threshold value from the user, compares to the original price of the car and then notifies the user if the prices are dropped.
 
 ## Working:-
-- Web Scraping: Extracting car prices from a website.
-- Data Storage: Storing the extracted data.
-- Price Comparison: Comparing prices to a predefined threshold.
-- Notification: Alerting the user when a car's price drops below the threshold
+- Data Storage: Storing the data in a sql file.
+- Price Comparison: Comparing prices with the user input.
+- Notification: Alerting the user when a car's price drops below the threshold.
 
 ## Project:- 
 **Input -**
