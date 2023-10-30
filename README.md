@@ -14,9 +14,10 @@ It uses Python libraries like BeautifulSoup and ToastNotifier.
 - Notification: Alerting the user when a car's price drops below the threshold
 
 ## Project:- 
-**Input - **
+**Input -**
 -![image](https://github.com/whysujalwhy/car-price-notifier.io/blob/main/code-input.png)
-**Output- **
+
+**Output-**
 -![image](https://github.com/whysujalwhy/car-price-notifier.io/blob/main/code-output.png)
 
 
