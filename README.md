@@ -15,9 +15,11 @@ It uses Python libraries like BeautifulSoup and ToastNotifier.
 
 ## Project:- 
 **Input -**
+
 -![image](https://github.com/whysujalwhy/car-price-notifier.io/blob/main/code-input.png)
 
 **Output-**
+
 -![image](https://github.com/whysujalwhy/car-price-notifier.io/blob/main/code-output.png)
 
 
