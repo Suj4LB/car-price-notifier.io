@@ -24,7 +24,7 @@ It uses Python libraries like BeautifulSoup and ToastNotifier.
 
 ## Contributors:-
 - [pratiksha-25](https://github.com/Pratiksha-25)
-- [sujal](https://github.com/whysujalwhy)
+- [sujal](https://github.com/Suj4LB)
 
 
 
